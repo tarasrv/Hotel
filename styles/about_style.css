@@ -1,0 +1,327 @@
+body{
+	background-color: #ebebeb;
+}
+.wrapper{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.header{
+	background-color: #191919;
+	color: white;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+}
+.menu{
+	display: inline-block;
+	font-family: Open Sans ;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+}
+.menu_list:last-child{
+	border-right: none;
+}
+.menu_list{	
+	border-right: 2px solid #303030;
+	display: inline;
+}
+.menu_list_href{
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.menu_list_href:hover{
+	color: #26678f;
+}
+.language{
+	position: absolute;
+	right: 20px;
+	top: 0px;
+}
+.language_select{
+	font-family: open Sans;
+	font-size: 13px;
+	background-color: #191919;
+	color: white;
+	border-color: transparent;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.logo{
+	float: left;
+	clear: right;
+	margin-top: 22.5px;
+}
+.left-column{
+	float: left;
+	clear: both;
+	margin-top: 50px;
+	border-right: 1px solid #cdcdcd;
+	padding-right: 70px;
+}
+.about-contain{
+	background: linear-gradient(to top, #b6b6b6, #d0d0d0, #b6b6b6);
+}
+.about_contain_text{
+	font-size: 13px;
+	line-height: 150%;
+	color: #7d7c7c;
+}
+.about-information{
+	font-family: PT Sans;
+	font-size: 20px;
+	height: 170px;
+	position: relative;	
+	overflow: visible;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about_text{
+	position: absolute;
+	bottom: 0px;
+	width: 830px;
+	background-image: url(../img/block2_background2.png);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	line-height: 35px;
+	padding-left:10px;
+}
+.submenu_row{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: black;
+}
+.row{
+	color: black;
+}
+.submenu_row:first-child{
+	font-weight: bolder;
+}
+.submenu{
+	width: 980px;
+	line-height: 51px;
+	height: 51px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: url(../img/submenu.png); 
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #373535;
+	font-family: Open Sans;
+	font-size: 15px; 
+  	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+.about{
+	width: 673px;
+	font-family: Open Sans;
+}
+.about_contain_text{
+	padding-top: 20px;
+}
+.about_contain_text:last-child{
+	padding-bottom: 40px;
+	border-bottom: 1px solid #7d7c7c;
+	border-style: dashed;  
+}
+.about_header{
+	font-size: 25px;
+	display: inline;
+}
+.about_header:last-child{
+	font-weight: bolder;
+}
+.about_header_paradise{
+	font-weight: bolder;
+	display: inline;
+}
+.rooms_header{
+	font-family: open Sans;
+	font-size: 20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.rooms_line{
+	min-height: 140px;
+}
+.rooms_text{
+	display: inline;
+	font-size: 13px;
+	line-height: 150%;
+	color: #7d7c7c;
+}
+.rooms_text_img{
+	display: inline;
+	float: left;
+	padding-right: 25px;
+}
+.content{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 775px;
+	position: relative;
+}
+.right-column{
+	width: 207px;
+	position: absolute;
+	right: 0px;
+	margin-top: 50px;
+
+}
+.search{
+	font-family: open Sans;
+}
+.search_header{
+	font-weight: bold;
+	font-size: 15px;
+}
+.search_bar{
+	width: 207px;
+	height: 37px;
+	color: #a3a2a2;
+	font-family: open Sans;
+	border: 1px solid #d6d4d4;
+	border-radius: 5px;
+	font-size: 13px;
+	padding-left: 10px;
+	margin-top: 15px;
+	line-height: 37px;
+}
+.reservation{
+	font-family: open Sans;
+}
+.reservation_header{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.reservation_text{
+	font-size: 13px;
+	margin-top: 10px;
+	color: #a3a2a2;
+
+}
+.reservation_select{
+	width: 207px;
+	height: 37px;
+	color: #a3a2a2;
+	font-family: open Sans;
+	border: 1px solid #d6d4d4;
+	border-radius: 5px;
+	font-size: 13px;
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 11px;
+	line-height: 37px;
+}
+.calendar_left{
+	color: #a3a2a2;
+	font-family: open Sans;
+	box-sizing: border-box;
+	height: 37px;
+	width: 98px;
+	border: 1px solid #d6d4d4;
+	border-radius: 5px;
+}
+.calendar_right{
+	color: #a3a2a2;
+	font-family: open Sans;
+	height: 37px;
+	width: 98px;
+	float: right;
+	box-sizing: border-box;
+	border: 1px solid #d6d4d4;
+	border-radius: 5px;
+}
+.button{
+	color: white;
+ 	height: 35px;
+ 	background-color: #32a2e3;
+ 	line-height: 35px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	font-family: Open Sans;
+ 	margin-top: 20px;
+}
+.footer{
+	color: #d1d1d1;
+	background-color: white;
+	height: 70px;
+	font-family: Open Sans;
+	position: relative;
+}
+.contact-us{
+	font-size: 15px;
+ 	font-family: Open Sans;
+ 	font-weight: bold;
+ 	margin-top: 40px;
+}
+.contact-us_phone{
+	padding-bottom: 15px;
+	color: #868585;
+	margin-top: 15px;
+	font-size: 13px;
+ 	font-family: Open Sans;
+ 	border-bottom: 1px solid #cdcdcd;
+}
+.contact-us_mail{
+	color: #868585;
+	margin-top: 15px;
+	font-size: 13px;
+ 	font-family: Open Sans;
+
+}
+.contact-us_chat{
+	padding-bottom: 15px;
+	color: #868585;
+	margin-top: 15px;
+	font-size: 13px;
+ 	font-family: Open Sans;
+ 	border-bottom: 1px solid #cdcdcd;	
+
+}
+.img{
+	float: right;
+}
+.rights{
+	display: inline-block;
+	line-height: 70px;
+	float: left;
+	width: 395px;
+	font-size: 12px;
+}
+.footer_menu{
+	display: inline-block;
+	line-height: 70px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.footer_menu_button{
+	color: #d1d1d1;
+}
+.footer_menu_href{
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 12px;
+}
+.icons{
+	display: inline-block;
+	margin-top: 22.5px;
+	position: middle center;
+}
+.footer_icons_settings{
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}

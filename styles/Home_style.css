@@ -1,0 +1,49 @@
+
+.block1{
+	height: 590px;
+	font-family: PT Sans;
+	background: linear-gradient(to top, #b6b6b6, #d0d0d0, #b6b6b6);
+	font-size: 0px;
+	position: relative;
+}
+.block1_contain{
+	position: absolute;
+	top: 45%;
+	color: white;
+}
+.block1_contain_1{
+	font-size: 28px;
+	height: 48px;
+	line-height: 48px;
+	padding-left: 10px;
+	padding-right: 20px;
+	font-weight: bolder;
+	background-image: url(../img/block2_background1.png);
+	width: 600px;
+  	background-repeat: no-repeat;
+}
+.block1_contain_2{
+	padding-left:10px;
+	padding-right: 20px; 
+	line-height: 35px;
+	font-size: 20px;
+	height: 35px;
+	background-image: url(../img/block2_background2.png);
+  	background-repeat: no-repeat;
+  	
+}
+.block1_contain_background{
+	width: 50px;
+}
+.how-to-book{
+	font-family: open Sans;
+	border: 2px solid #d3d3d3;
+	border-radius: 5px;
+	width: 970px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+  	bottom: 50px;
+  	background: white;
+
+}
